@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Ponorogo</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: url('alun-alun-ponorogo-3_169.jpeg') no-repeat center center/cover;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #666;
+        }
+        section {
+            padding: 2rem 1rem;
+        }
+        section h2 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3 {
+            padding: 1rem;
+            margin: 0;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        footer p {
+            margin: 0;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            header p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Ponorogo</h1>
+        <p>Kota dengan keindahan budaya dan alam yang mempesona</p>
+    </header>
+    <nav>
+        <a href="#about">Tentang Ponorogo</a>
+        <a href="#culture">Budaya</a>
+        <a href="#tourism">Wisata</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+    <section id="about">
+        <div class="container">
+            <h2>Tentang Ponorogo</h2>
+            <p>Ponorogo dikenal sebagai Kota Reog. Dengan warisan budaya yang kaya, kota ini menawarkan pengalaman unik untuk para pengunjung. Dikelilingi oleh pegunungan, Ponorogo juga memiliki pemandangan alam yang menakjubkan.</p>
+        </div>
+    </section>
+    <section id="culture">
+        <div class="container">
+            <h2>Budaya Ponorogo</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="reogponorogo-6560cf00c57afb3beb047692.jpg" alt="Reog">
+                    <h3>Reog Ponorogo</h3>
+                </div>
+                <div class="card">
+                    <img src="kuda-lumpingjpg-20230410113404.jpg" alt="Tari Tradisional">
+                    <h3>Tari Tradisional</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tourism">
+        <div class="container">
+            <h2>Destinasi Wisata</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="berperahu-di-telaga-ngebel-munip-prayogo-1024x640-6079cfcd8ede480caa66be62.jpg" alt="Telaga Ngebel">
+                    <h3>Telaga Ngebel</h3>
+                </div>
+                <div class="card">
+                    <img src="Gunung-Gajah.jpeg" alt="Gunung Gajah">
+                    <h3>Gunung Gajah</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Discover Ponorogo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
